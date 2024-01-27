@@ -1,0 +1,1987 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionHome">
+        <div class="bg-container d-flex flex-column justify-content-center pt-5">
+            <h1 class="heading">Tourism</h1>
+            <h1 class="heading1">UNESCO World Heritage Site in India</h1>
+            <div class="d-flex flex-row justify-content-center">
+
+                <button class="button" onclick="display('sectionFavouritePlaces')">Get Started</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionFavouritePlaces">
+        <div class="card" id="SiteinIndia">
+
+
+            <div class="site-card d-flex flex-row" onclick="display('sectionViewTajMahalPage')">
+
+                <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674236810/Taj-Mahal-Agra-India_zscc9f.webp" class="imgcard" />
+                <div>
+                    <h1 class="namesize pt-2">Taj Mahal</h1>
+                    <p><span class="span">Location:</span> Agra, Uttar Pradesh, India</p>
+                </div>
+            </div>
+            <div class="site-card d-flex flex-row" onclick="display('sectionViewHampiPage')">
+                <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674241294/Hampi_virupaksha_temple_khil2l.jpg" class="imgcard" />
+                <div>
+                    <h1 class="namesize pt-2">Hampi</h1>
+                    <p><span class="span">Location:</span> Vijayanagara district, Karnataka, India</p>
+                </div>
+            </div>
+            <div class="site-card d-flex flex-row" onclick="display('sectionViewAjantaPage')">
+                <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674242172/Cave_No._19_of_the_Ajanta_Caves_fipoxl.jpg" class="imgcard" />
+                <div>
+                    <h1 class="namesize pt-2">Ajanta Caves</h1>
+                    <p><span class="span">Location:</span> Ajanta, Aurangabad district, Maharashtra, India</p>
+                </div>
+            </div>
+            <div class="site-card d-flex flex-row" onclick="display('sectionViewElloraPage')">
+                <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674242840/site_0243_0001-750-750-20151104152442_hu5l69.jpg" class="imgcard" />
+                <div>
+                    <h1 class="namesize pt-2">Ellora Caves</h1>
+                    <p><span class="span">Location:</span> Aurangabad district, Maharashtra, India</p>
+                </div>
+            </div>
+            <div class="site-card d-flex flex-row" onclick="display('sectionViewHumayunsPage')">
+                <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674243869/download_1_xuecor.jpg" class="imgcard" />
+                <div>
+                    <h1 class="namesize pt-2">Humayun's Tomb</h1>
+                    <p><span class="span">Location:</span> Mathura road, Nizamuddin East, Delhi, India</p>
+                </div>
+            </div>
+            <div class="site-card d-flex flex-row" onclick="display('sectionViewKhajurahoPage')">
+                <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674243853/download_fdffba.jpg" class="imgcard" />
+                <div>
+                    <h1 class="namesize pt-2">Khajuraho</h1>
+                    <p><span class="span">Location:</span> Chhatarpur, Madhya Pradesh, India</p>
+                </div>
+            </div>
+            <div class="site-card d-flex flex-row" onclick="display('sectionViewAgraPage')">
+                <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674243828/Jahangirs-Palace-Agra-Fort-India-Uttar-Pradesh_h70pmh.webp" class="imgcard" />
+                <div>
+                    <h1 class="namesize pt-2">Agra Fort</h1>
+                    <p><span class="span">Location:</span> Agra, Uttar Pradesh, India</p>
+                </div>
+            </div>
+            <div class="site-card d-flex flex-row" onclick="display('sectionViewElephantaPage')">
+                <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674282859/images_itucrb.jpg" class="imgcard" />
+                <div>
+                    <h1 class="namesize pt-2">Elephanta Caves</h1>
+                    <p><span class="span">Location:</span> Elephanta Island, Maharashtra, India</p>
+                </div>
+            </div>
+            <div class="site-card d-flex flex-row" onclick="display('sectionViewBhimbetkaPage')">
+                <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674283434/download_2_pongqt.jpg" class="imgcard" />
+                <div>
+                    <h1 class="namesize pt-2">Bhimbetka rock shelters</h1>
+                    <p><span class="span">Location:</span> Raisen District, Madhya Pradesh, India</p>
+                </div>
+            </div>
+            <div class="site-card d-flex flex-row" onclick="display('sectionViewFatehpurPage')">
+                <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674283982/download_4_pinlle.jpg" class="imgcard" />
+                <div>
+                    <h1 class="namesize pt-2">Fatehpur Sikri</h1>
+                    <p><span class="span">Location:</span> Agra Uttar Pradesh, India</p>
+                </div>
+            </div>
+            <div class="site-card d-flex flex-row" onclick="display('sectionViewPattadakalPage')">
+                <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674284356/download_5_wnbib3.jpg" class="imgcard" />
+                <div>
+                    <h1 class="namesize pt-2">Pattadakal</h1>
+                    <p><span class="span">Location:</span> Bagalkot district, Karnataka, India</p>
+                </div>
+            </div>
+            <div class="site-card d-flex flex-row" onclick="display('sectionViewKazirangaPage')">
+                <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674284929/download_6_tqmx96.jpg" class="imgcard" />
+                <div>
+                    <h1 class="namesize pt-2">Kaziranga National Park</h1>
+                    <p><span class="span">Location:</span> Golaghat and Nagaon districts, India</p>
+                </div>
+            </div>
+            <div class="site-card d-flex flex-row" onclick="display('sectionViewMahabodhiPage')">
+                <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674285164/download_7_cdan6p.jpg" class="imgcard" />
+                <div>
+                    <h1 class="namesize pt-2">Mahabodhi Temple</h1>
+                    <p><span class="span">Location:</span> Bodh Gaya, Bihar, India</p>
+                </div>
+            </div>
+            <div class="site-card d-flex flex-row" onclick="display('sectionViewChhatrapatiPage')">
+                <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674285394/download_8_dcgglx.jpg" class="imgcard" />
+                <div>
+                    <h1 class="namesize pt-2">Chhatrapati Shivaji Maharaj Terminus</h1>
+                    <p><span class="span">Location:</span> Mumbai, Maharashtra, India</p>
+                </div>
+            </div>
+            <div class="site-card d-flex flex-row" onclick="display('sectionViewChampanerPage')">
+                <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674286366/download_9_ootky2.jpg" class="imgcard" />
+                <div>
+                    <h1 class="namesize pt-2">Champaner-Pavagadh Archaeological Park</h1>
+                    <p><span class="span">Location:</span> Panchmahal district, Gujarat, India</p>
+                </div>
+            </div>
+            <div class="site-card d-flex flex-row" onclick="display('sectionViewGreatLivingPage')">
+                <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674286589/download_10_g1mabq.jpg" class="imgcard" />
+                <div>
+                    <h1 class="namesize pt-2">Great Living Chola Temples</h1>
+                    <p><span class="span">Location:</span> Tamil Nadu, India</p>
+                </div>
+            </div>
+            <div class="site-card d-flex flex-row" onclick="display('sectionViewManasPage')">
+                <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674286844/download_11_jz0ftq.jpg" class="imgcard" />
+                <div>
+                    <h1 class="namesize pt-2">Manas National Park</h1>
+                    <p><span class="span">Location:</span> Chirang and Baksa District, BTR, Assam, Northeastern India</p>
+                </div>
+            </div>
+            <div class="site-card d-flex flex-row" onclick="display('sectionViewVictorianPage')">
+                <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674287058/download_12_ypnf7f.jpg" class="imgcard" />
+                <div>
+                    <h1 class="namesize pt-2">The Victorian and Art Deco Ensemble of Mumbai</h1>
+                    <p><span class="span">Location:</span> Mumbai, India</p>
+                </div>
+            </div>
+            <div class="site-card d-flex flex-row" onclick="display('sectionViewSundarbanPage')">
+                <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674287294/images_1_roxtms.jpg" class="imgcard" />
+                <div>
+                    <h1 class="namesize pt-2">Sundarban National Park</h1>
+                    <p><span class="span">Location:</span> South 24 Parganas, West Bengal, India</p>
+                </div>
+            </div>
+            <div class="site-card d-flex flex-row" onclick="display('sectionViewMahabalipuramPage')">
+                <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674287557/download_13_gz38mv.jpg" class="imgcard" />
+                <div>
+                    <h1 class="namesize pt-2">Mahabalipuram</h1>
+                    <p><span class="span">Location:</span>Tamil Nadu, Chengalpattu, India</p>
+                </div>
+            </div>
+            <div class="site-card d-flex flex-row" onclick="display('sectionViewKeoladeoPage')">
+                <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674287923/download_14_u4al95.jpg" class="imgcard" />
+                <div>
+                    <h1 class="namesize pt-2">Keoladeo National Park</h1>
+                    <p><span class="span">Location:</span> Bharatpur, Rajasthan, India</p>
+                </div>
+            </div>
+            <div class="site-card d-flex flex-row" onclick="display('sectionViewHillFortsPage')">
+                <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674288106/download_15_cvs0zz.jpg" class="imgcard" />
+                <div>
+                    <h1 class="namesize pt-2">Hill Forts of Rajasthan</h1>
+                    <p><span class="span">Location:</span> Rajasthan, India</p>
+                </div>
+            </div>
+            <div class="site-card d-flex flex-row" onclick="display('sectionViewSanchiPage')">
+                <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674288375/download_16_xpkzxf.jpg" class="imgcard" />
+                <div>
+                    <h1 class="namesize pt-2">Sanchi</h1>
+                    <p><span class="span">Location:</span> Sanchi Town, Raisen district, Madhya Pradesh, India</p>
+                </div>
+            </div>
+            <div class="site-card d-flex flex-row" onclick="display('sectionViewKonarkPage')">
+                <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674288588/images_2_u2yjh9.jpg" class="imgcard" />
+                <div>
+                    <h1 class="namesize pt-2">Konark Sun Temple</h1>
+                    <p><span class="span">Location:</span> Konark, Puri district, Odisha, India</p>
+                </div>
+            </div>
+            <div class="site-card d-flex flex-row" onclick="display('sectionViewHistoricCityPage')">
+                <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674288876/download_17_cvrfnn.jpg" class="imgcard" />
+                <div>
+                    <h1 class="namesize pt-2">Historic City of Ahmadabad</h1>
+                    <p><span class="span">Location:</span> Gujarat district, Ahmedabad, India</p>
+                </div>
+            </div>
+            <div class="site-card d-flex flex-row" onclick="display('sectionViewValleyOfFlowersPage')">
+                <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674289293/download_18_otipjp.jpg" class="imgcard" />
+                <div>
+                    <h1 class="namesize pt-2">Valley of Flowers National Park</h1>
+                    <p><span class="span">Location:</span> Uttarakhand, India</p>
+                </div>
+            </div>
+            <div class="site-card d-flex flex-row" onclick="display('sectionViewCapitolComplexPage')">
+                <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674290631/download_19_tsnivw.jpg" class="imgcard" />
+                <div>
+                    <h1 class="namesize pt-2">Capitol Complex Tourist Center</h1>
+                    <p><span class="span">Location:</span> Chandigarh, Chandigarh capital region, India</p>
+                </div>
+            </div>
+            <div class="site-card d-flex flex-row" onclick="display('sectionViewDarjeelingPage')">
+                <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674290858/download_20_cqxnbh.jpg" class="imgcard" />
+                <div>
+                    <h1 class="namesize pt-2">Darjeeling Himalayan Railway</h1>
+                    <p><span class="span">Location:</span> West Bengal, India</p>
+                </div>
+            </div>
+            <div class="site-card d-flex flex-row" onclick="display('sectionViewBrihadeeswaraPage')">
+                <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674291711/download_21_wk6lvj.jpg" class="imgcard" />
+                <div>
+                    <h1 class="namesize pt-2">Brihadeeswara Temple</h1>
+                    <p><span class="span">Location:</span> Thanjavur, Tamil Nadu,India</p>
+                </div>
+            </div>
+            <div class="site-card d-flex flex-row" onclick="display('sectionViewSundarbansPage')">
+                <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674292127/sundarbans-national-park_xt6d0d.webp" class="imgcard" />
+                <div>
+                    <h1 class="namesize pt-2">Sundarbans</h1>
+                    <p><span class="span">Location:</span> Khulna Division, Bangladesh; Presidency division, West Bengal, India</p>
+                </div>
+            </div>
+            <div class="site-card d-flex flex-row" onclick="display('sectionViewBasilicaPage')">
+                <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674292340/download_22_jb3ygy.jpg" class="imgcard" />
+                <div>
+                    <h1 class="namesize pt-2">Basilica of Bom Jesus</h1>
+                    <p><span class="span">Location:</span> Goa, India</p>
+                </div>
+            </div>
+            <div class="site-card d-flex flex-row" onclick="display('sectionViewQutbMinarPage')">
+                <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674293178/images_3_r3hy8x.jpg" class="imgcard" />
+                <div>
+                    <h1 class="namesize pt-2">Qutb Minar complex</h1>
+                    <p><span class="span">Location:</span> Mehrauli, India</p>
+                </div>
+            </div>
+            <div class="site-card d-flex flex-row" onclick="display('sectionViewChittorgarhFortPage')">
+                <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674293322/download_23_eqkq7v.jpg" class="imgcard" />
+                <div>
+                    <h1 class="namesize pt-2">Chittorgarh Fort</h1>
+                    <p><span class="span">Location:</span> Chittorgarh, India</p>
+                </div>
+            </div>
+            <div class="site-card d-flex flex-row" onclick="display('sectionViewNandaDeviPage')">
+                <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674293622/download_24_xroxkn.jpg" class="imgcard" />
+                <div>
+                    <h1 class="namesize pt-2">Nanda Devi National Park</h1>
+                    <p><span class="span">Location:</span> Chamoli district, Uttarakhand, India</p>
+                </div>
+            </div>
+            <div class="site-card d-flex flex-row" onclick="display('sectionViewKailasaPage')">
+                <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674294446/download_25_sckc4j.jpg" class="imgcard" />
+                <div>
+                    <h1 class="namesize pt-2">Kailasa Temple</h1>
+                    <p><span class="span">Location:</span> Ellor, Maharashtra, India</p>
+                </div>
+            </div>
+            <div class="site-card d-flex flex-row" onclick="display('sectionViewDharasuramPage')">
+                <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674294688/download_26_t0j2gp.jpg" class="imgcard" />
+                <div>
+                    <h1 class="namesize pt-2">Dharasuram</h1>
+                    <p><span class="span">Location:</span> state Tamil Nadu, District Thanjavur, India</p>
+                </div>
+            </div>
+            <div class="site-card d-flex flex-row" onclick="display('sectionViewNandaDeviPage')">
+                <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674294905/download_27_uya3eo.jpg" class="imgcard" />
+                <div>
+                    <h1 class="namesize pt-2">Nanda Devi</h1>
+                    <p><span class="span">Location:</span> Chamoli, Uttarakhand, India</p>
+                </div>
+            </div>
+            <div class="site-card d-flex flex-row" onclick="display('sectionViewWesternGhatsPage')">
+                <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674295936/download_28_tulhsd.jpg" class="imgcard" />
+                <div>
+                    <h1 class="namesize pt-2">Western Ghats</h1>
+                    <p><span class="span">Location:</span> Gujarat, Maharashtra, Goa, Karnataka, Kerala and Tamil Nadu, Western and Southern India</p>
+                </div>
+            </div>
+            <div class="site-card d-flex flex-row" onclick="display('sectionViewVelhaGoaPage')">
+                <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674296362/download_29_ipursz.jpg" class="imgcard" />
+                <div>
+                    <h1 class="namesize pt-2">Velha Goa</h1>
+                    <p><span class="span">Location:</span> North Goa, India</p>
+                </div>
+            </div>
+            <div class="site-card d-flex flex-row" onclick="display('sectionViewPinkCityPage')">
+                <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674297237/download_30_bw4a1q.jpg" class="imgcard" />
+                <div>
+                    <h1 class="namesize pt-2">pink city</h1>
+                    <p><span class="span">Location:</span> Rajasthan, Jaipur, India</p>
+                </div>
+            </div>
+
+            <div class="d-flex flex-row justify-content-center pt-5">
+                <button class="btn btn-primary" onclick="display('sectionHome')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionViewTajMahalPage">
+        <div class="card1">
+            <h1 class="heading2 pt-3 ml-3">Detailed View</h1>
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tajmahal-c1-img.png" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tajmahal-c2-img.png" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tajmahal-c3-img.png" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div class="DV-card">
+                <h1 class="h">Taj Mahal</h1>
+                <p class="p">The Taj Mahal is considered to be the greatest architectural achievement in the whole range of Indo-Islamic architecture. Its recognised architectonic beauty has a rhythmic combination of solids and voids, concave and convex and light shadow; such as arches and domes further increases the aesthetic aspect. Not a piece of architecture, as other buildings are, but the proud passions of an emperor’s love wrought in living stones.</p>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/v580zy82rcE" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center pt-4">
+                <button class="btn btn-primary" onclick="display('sectionFavouritePlaces')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionViewHampiPage">
+        <div class="card1">
+            <h1 class="heading2 pt-3 ml-3">Detailed View</h1>
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674319896/Le_temple_de_Virupaksha__Hampi__Inde___14255857272_slto0o.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674319871/Hampi__India__Community_hall__sabha_mandapa__of_Vijaya_Vitthala_Temple_nge48k.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674319851/Hampi__India__Aerial_view_of_Virupaksha_Temple__Panorama_of_Hampi_parfpt.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div class="DV-card">
+                <h1 class="h">Hampi</h1>
+                <p class="p">Hampi was the capital of the Vijayanagara Empire in the 14th century.[3] It was a fortified city. Chronicles left by Persian and European travellers, particularly the Portuguese, say that Hampi was a prosperous, wealthy and grand city near the Tungabhadra River, with numerous temples, farms and trading markets</p>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/OKCkLFVl80U" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center pt-4">
+                <button class="btn btn-primary" onclick="display('sectionFavouritePlaces')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionViewAjantaPage">
+        <div class="card1">
+            <h1 class="heading2 pt-3 ml-3">Detailed View</h1>
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674409289/220px-067_Cave_4__Buddhas__Sitting_and_Standing__34123205802_ylnaei.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674409208/Ajanta_by_Fergusson__cave_19_dbvdqt.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674409185/041_Cave_2__Main_Shrine_and_Ceiling__33438141474_iajjvi.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div class="DV-card">
+                <h1 class="h">Ajanta Caves</h1>
+                <p class="p">The Ajanta Caves are approximately thirty rock-cut Buddhist cave monuments dating from the second century BCE to about 480 CE in the Sambhajinagar district of Maharashtra state in India.[1][note 1] The caves include paintings and rock-cut sculptures described as among the finest surviving examples of ancient Indian art, particularly expressive paintings that present emotions through gesture, pose and form.[3][4][5]The site is a protected monument in the care of the Archaeological Survey of India,[7] and since 1983, the Ajanta Caves have been a UNESCO World Heritage SiteThe Ajanta Caves are generally agreed to have been made in two distinct phases, the first during the 2nd century BCE to 1st century CE, and a second several centuries later.[22][23][24]
+                    The caves consist of 36 identifiable foundations,[8] some of them discovered after the original numbering of the caves from 1 through 29. The later-identified caves have been suffixed with the letters of the alphabet, such as 15A, identified between originally numbered caves 15 and 16.[25] The cave numbering is a convention of convenience, and does not reflect the chronological order of their construction.[26]</p>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/InmFDhVyszw" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center pt-4">
+                <button class="btn btn-primary" onclick="display('sectionFavouritePlaces')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionViewElloraPage">
+        <div class="card1">
+            <h1 class="heading2 pt-3 ml-3">Detailed View</h1>
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674464292/225px-Ellora_cave16_001_pl8zpn.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674464305/Ellora._Kylas__lithograph_by_James_Fergusson_and_Thomas_Dibdin__1839_cyxl2h.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674464275/220px-Ellora_Caves_86_qnhwhx.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div class="DV-card">
+                <h1 class="h">Ellora Caves</h1>
+                <p class="p">Ellora is a UNESCO World Heritage Site located in the Sambhajinagar district of Maharashtra, India. It is one of the largest rock-cut Hindu temple cave complexes in the world, with artwork dating from the period 600–1000 CE.[1][2] Cave 16 features the largest single monolithic rock excavation in the world, the Kailash temple, a chariot-shaped monument dedicated to the god Shiva. The Kailash temple excavation also features sculptures depicting various Hindu deities as well as relief panels summarizing the two major Hindu epics.The Hindu caves were constructed during the Kalachuris period, from the mid-6th century to the end of the 8th century in two phases. Nine cave temples were excavated early in the 6th century,[22][23] followed by a further four caves (caves 17–29). Work first commenced, in order, on Caves 28, 27 and 19 then Caves 29 and 21, which were excavated concurrently with Caves 20 and 26. Caves 17 and 28 were the last ones to be started.[24][25]
+                    The later caves, 14, 15 and 16, were constructed during the Rashtrakuta period, some being dated to between the 8th to 10th centuries.[26] Work first began in Caves 14 and 15 with Cave 16, the world's largest monolith,[citation needed] being the last of the three to be constructed.[24] These caves were completed in the 8th century with the support of king Krishna I.[27][28]</p>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/YrDNeib0LaU" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center pt-4">
+                <button class="btn btn-primary" onclick="display('sectionFavouritePlaces')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionViewHumayunsPage">
+        <div class="card1">
+            <h1 class="heading2 pt-3 ml-3">Detailed View</h1>
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674466882/Humayun_s_Tomb_from_the_entrance__Delhi_uo6nrp.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674466867/Isa_Khan_s_mosque__built_ca_1547_AD__near_Humayun_s_tomb_j23dii.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674466843/200px-Humayun_s_Tomb__with_the_Barber_s_Tomb_in_the_foreground__Delhi__1858_photograph_wignz7.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div class="DV-card">
+                <h1 class="h">Humayun's Tomb</h1>
+                <p class="p">After his death on 27 January 1556, Humayun's body was first buried in his palace in Purana Quila at Delhi. Thereafter it was taken to Sirhind, in Punjab by Khanjar Beg and, in 1558, it was seen by Humayun's son, the then Mughal Emperor, Akbar. Akbar subsequently visited the tomb in 1571, when it was about to be completed.[23][24][25]Capture of the last Mughal emperor Bahadur Shah Zafar and his sons by William Hodson at Humayun's tomb in September 1857</p>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/p9WBIA-YwYA" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center pt-4">
+                <button class="btn btn-primary" onclick="display('sectionFavouritePlaces')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionViewKhajurahoPage">
+        <div class="card1">
+            <h1 class="heading2 pt-3 ml-3">Detailed View</h1>
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674468057/images_pk63qm.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674468043/download_enalyx.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674468073/Khajuraho_Dulhadeo_2010_zev4gn.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div class="DV-card">
+                <h1 class="h">Khajuraho</h1>
+                <p class="p">The history of Khajuraho is about a thousand years old. The oldest known power of Khajuraho in its territory was Vatsa. Their successors in the region included the Sungas, the Kushans, the Nagas of Padmavati, the Vakataka dynasty, the Guptas, the Pushyabhutis, the Maurya-Gadariyas, the Gurjara-Pratihara dynasty and the Chandela-Baghela dynasty. It was particularly during the Gupta period that architecture and art began to flourish in the region, though their successors continued the artistic tradition. [1] This city was the first capital of Chandela kingdom. Chandela dynastyAnd the founder of Khajuraho was Chandravarman. Chandravarman was a [Dhangar]] king who ruled in Bundelkhand in the medieval period. They considered themselves Chandravanshi. The Chandela kings ruled central India from the 10th to the 12th century. The temples of Khajuraho were built between 950 AD to 1050 AD by these Chandela kings. [2] After the construction of the temples, the Chandelo shifted their capital to Mahoba . But even after this, the importance of Khajuraho remained.Built between 950 - 1050 CE by the Chandela dynasty , the Khajuraho temples are one of the most important specimens of Indian art. These sets of Hindu and Jain temples took almost a hundred years to take shape. Originally a collection of 85 temples, number 25has come down till A UNESCO World Heritage Site, the temple complex is divided into three zones: western, eastern and southern</p>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Sj7RL8JwRTc" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center pt-4">
+                <button class="btn btn-primary" onclick="display('sectionFavouritePlaces')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionViewAgraPage">
+        <div class="card1">
+            <h1 class="heading2 pt-3 ml-3">Detailed View</h1>
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674469736/Diwan-E-Aam__Hall_of_Public_Audience_b4rpop.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674469720/120px-Agrafortushnish2_wwqie6.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674469707/120px-Agra_Fort_13_u1v8nz.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div class="DV-card">
+                <h1 class="h">Agra Fort</h1>
+                <p class="p">The Agra Fort is a historical fort in the city of Agra in India also known as the Red Fort.Built by the Mughal emperor Akbar in 1565 and completed in 1573, it served as the main residence of the rulers of the Mughal Dynasty until 1638, when the capital was shifted from Agra to Delhi. It was also known as the “Lal-Qila”, “Fort Rouge” or “Qila-i-Akbari”.[1] Before capture by the British, the last Indian rulers to have occupied it were the Marathas. In 1983, the Agra fort was life inscribed as a UNESCO World Heritage Site.[2] It is about 2.5 km northwest of its more famous sister monument, the Taj Mahal. The fort can be more accurately described as a walled city.</p>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VbD-bnnAjRs" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center pt-4">
+                <button class="btn btn-primary" onclick="display('sectionFavouritePlaces')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionViewElephantaPage">
+        <div class="card1">
+            <h1 class="heading2 pt-3 ml-3">Detailed View</h1>
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674471158/Elephanta_Caves_in_Elephanta_Island_in_Maharashtra_madu1k.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674471117/Elephanta_caves3_myqeyv.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674471078/220px-Shiva_linga_in_elephanta_cave_in_west_side_cmyngm.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div class="DV-card">
+                <h1 class="h">Elephanta caves</h1>
+                <p class="p">The Elephanta Caves are a collection of cave temples predominantly dedicated to the Hindu god Shiva.[1][2][3] They are on Elephanta Island, or Gharapuri (literally "the city of caves"),[4] in Mumbai Harbour, 10 kilometres (6.2 mi) east of Mumbai in the Indian state of Mahārāshtra. The island, about 2 kilometres (1.2 mi) west of the Jawaharlal Nehru Port, consists of five Hindu caves, a few Buddhist stupa mounds that date back to the 2nd century BCE,[5][2][6] and two Buddhist caves with water tanks.[7][8]</p>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/uaHuJRrAB7Q" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center pt-4">
+                <button class="btn btn-primary" onclick="display('sectionFavouritePlaces')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionViewBhimbetkaPage">
+        <div class="card1">
+            <h1 class="heading2 pt-3 ml-3">Detailed View</h1>
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674472274/download_2_cbvxta.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674472245/download_1_qcoihr.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674472299/images_2_qxaqxd.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div class="DV-card">
+                <h1 class="h">Bhimbetka rock shelters</h1>
+                <p class="p">The Bhimbetka rock shelters are an archaeological site in central India that spans the Paleolithic and Mesolithic periods, as well as the historic period.[1][2] It exhibits the earliest traces of human life in India and evidence of Stone Age starting at the site in Acheulian times.[3][4][5] It is located in the Raisen District in the Indian state of Madhya Pradesh about 45 kilometres (28 mi) south-east of Bhopal. It is a UNESCO World Heritage Site that consists of seven hills and over 750 rock shelters distributed over 10 km (6.2 mi).[2][6] At least some of the shelters were inhabited more than 100,000 years ago.[2][7] The rock shelters and caves provide evidence of, according to Encyclopædia Britannica, a "rare glimpse" into human settlement and cultural evolution from hunter-gatherers, to agriculture, and expressions of prehistoric spirituality.[8]Some of the Bhimbetka rock shelters feature prehistoric cave paintings and the earliest are about 10,000 years old (c. 8,000 BCE), corresponding to the Indian Mesolithic.[9][10][11][12][13] </p>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/164VtXxWCa0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center pt-4">
+                <button class="btn btn-primary" onclick="display('sectionFavouritePlaces')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionViewFatehpurPage">
+        <div class="card1">
+            <h1 class="heading2 pt-3 ml-3">Detailed View</h1>
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674981149/250px-Panch_Mahal-Fatehpur-Fatehpur_Sikri_India0014_yp13ad.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674981577/250px-Jama_Masjid-Sikri-Fatehpur_Sikri-India0008_uldcxc.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674981729/Fatehpur_Sikiri_Salim_Chishti_Tomb_2010_rokiee.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div class="DV-card">
+                <h1 class="h">Fatehpur Sikri</h1>
+                <p class="p">Archaeological evidence points to settlement of the region since the Painted Grey Ware period. According to historian Syed Ali Nadeem Rezavi, the region flourished under Sunga rule and then under Sikarwar Rajputs, who built a fortress when they controlled the area from 7th to 16th century, until the Battle of Khanwa (1527). The area later came under the rule of the Delhi Sultanate and many mosques were built at the place which grew in size during the period of the Khalji dynasty.[8][9]Basing his arguments on the excavations by the Archaeological Survey of India (ASI) in 1999–2000 at the Chabeli Tila, senior Agra journalist Bhanu Pratap Singh said the antique pieces, statues, and structures all point to a lost "culture and religious site," more than 1,000 years ago.</p>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/vruDuNCOxhg" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center pt-4">
+                <button class="btn btn-primary" onclick="display('sectionFavouritePlaces')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionViewPattadakalPage">
+        <div class="card1">
+            <h1 class="heading2 pt-3 ml-3">Detailed View</h1>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674983009/150px-7th_-_8th_century_Sangameswara_temple__Pattadakal_monuments_Karnataka_3_yjweja.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674983085/Pattadakal_view_yhe998.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674983160/Sangameshwara_Temple_Pattadakal_14_imp1it.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div class="DV-card">
+                <h1 class="h">Pattadakal</h1>
+                <p class="p">Pattadakal ("place of coronation") was considered a holy place, being where the Malaprabha river turned northwards towards the Himalayas and the Kailasha mountain (uttara-vahini). As its name implies, it was used during the Chalukya dynasty for coronation ceremonies, such as that of Vinayaditya in the 7th century CE.[3][4] Other names this place was known by were Kisuvolal meaning "valley of red soil", Raktapura meaning "city of red", and Pattada-Kisuvolal meaning "red soil valley for coronation".[3][15][16] The site, states Archaeological Survey of India, is mentioned in texts by Srivijaya and is referred to by Ptolemy as "Petirgal" in his Geography.[3]
+                    The early rulers of the Chalukya during the 5th – 6th century were Vaishnavites (a community that believes and offers prayers to Lord Vishnu, followers of Vaishnavism) and then converted themselves into Shivaites (a community that believes and offer prayers to Lord Shiva and followers of Shivaism). Hence the temples in and around this compound are dedicated to Lord Shiva.</p>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/7xiz8vQgoCU" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center pt-4">
+                <button class="btn btn-primary" onclick="display('sectionFavouritePlaces')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionViewKazirangaPage">
+        <div class="card1">
+            <h1 class="heading2 pt-3 ml-3">Detailed View</h1>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674984100/220px-Coracias_affinis__Kaziranga__cropped_ultjku.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674984259/220px-Otter_in_Kaziranga_National_Park_ojo4wi.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674984310/220px-Rhino___Elephant_at_Kaziranga_National_Park_daqa3k.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div class="DV-card">
+                <h1 class="h">Kaziranga National Park</h1>
+                <p class="p">The history of Kaziranga as a protected area can be traced back to 1904, when Mary Curzon, Baroness Curzon of Kedleston, the wife of the Viceroy of India, Lord Curzon of Kedleston, visited the area.[10] After failing to see a single-horned rhinoceros, for which the area was renowned, she persuaded her husband to take urgent measures to protect the dwindling species which he did by initiating planning for their protection.[11] On 1 June 1905, the Kaziranga Proposed Reserve Forest was created with an area of 232 km2 (90 sq mi).[12]</p>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/W9YKA-Qn5ws" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center pt-4">
+                <button class="btn btn-primary" onclick="display('sectionFavouritePlaces')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionViewMahabodhiPage">
+        <div class="card1">
+            <h1 class="heading2 pt-3 ml-3">Detailed View</h1>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674985631/images_1_wmay2r.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674985674/images_2_wauhdo.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674985711/images_gf7dcx.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div class="DV-card">
+                <h1 class="h">Mahabodhi Temple</h1>
+                <p class="p">The Mahabodhi Temple (literally: "Great Awakening Temple") or the Mahābodhi Mahāvihāra, a UNESCO World Heritage Site, is an ancient, but rebuilt and restored Buddhist temple in Bodh Gaya, Bihar, India, marking the location where the Buddha is said to have attained enlightenment.[1] Bodh Gaya is 15 km from Gaya and is about 96 km (60 mi) from Patna.</p>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/8_Rb04JWVcI" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center pt-4">
+                <button class="btn btn-primary" onclick="display('sectionFavouritePlaces')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionViewChhatrapatiPage">
+        <div class="card1">
+            <h1 class="heading2 pt-3 ml-3">Detailed View</h1>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674986223/images_3_eutyco.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674986263/images_4_hqdgsy.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674986305/images_5_dhkkdj.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div class="DV-card">
+                <h1 class="h">Chhatrapati Shivaji Maharaj Terminus</h1>
+                <p class="p">Chhatrapati Shivaji Terminus (officially Chhatrapati Shivaji Maharaj Terminus, Bombay station code: CSMT (mainline)[4]/ST (suburban), is a historic railway terminus and UNESCO World Heritage Site in Mumbai, Maharashtra, India.
+                    The terminus was designed by a British born architectural engineer Frederick William Stevens from an initial design by Axel Haig, in an exuberant Italian Gothic style. Its construction began in 1878, in a location south of the old Bori Bunder railway station,[5] and was completed in 1887, the year marking 50 years of Queen Victoria's rule.</p>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/0EVL3xTt5ts" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center pt-4">
+                <button class="btn btn-primary" onclick="display('sectionFavouritePlaces')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionViewChampanerPage">
+        <div class="card1">
+            <h1 class="heading2 pt-3 ml-3">Detailed View</h1>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674987064/images_1_mbxhxw.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674987114/images_2_ecb3ah.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674987149/images_z95vgt.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div class="DV-card">
+                <h1 class="h">Champaner-Pavagadh Archaeological Park</h1>
+                <p class="p">Champaner-Pavagadh Archaeological Park, a UNESCO World Heritage Site, is located in Panchmahal district in Gujarat, India. It is located around the historical city of Champaner, a city which was founded by Vanraj Chavda, the most prominent king of the Chavda Dynasty, in the eighth century. He named it after the name of his friend and general Champa, also known later as Champaraj. The heritage site is studded with forts with bastions starting from the hills of Pavagadh, and extending into the city of Champaner. The park's landscape includes archaeological, historic and living cultural heritage monuments such as chalcolithic sites, a hill fortress of an early Hindu capital, and remains of the 16th-century capital of the state of Gujarat. There are palaces, entrance gates and arches, mosques, tombs and temples, residential complexes, agricultural structures and water installations such as stepwells and tanks, dating from the eighth to the 14th centuries
+                <p>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/mdomTf2qjKE" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center pt-4">
+                <button class="btn btn-primary" onclick="display('sectionFavouritePlaces')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionViewGreatLivingPage">
+        <div class="card1">
+            <h1 class="heading2 pt-3 ml-3">Detailed View</h1>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674988624/images_1_zkwfgf.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674988648/images_4_utxqbz.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674988665/images_5_iiuh36.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div class="DV-card">
+                <h1 class="h">Great Living Chola Temples</h1>
+                <p class="p">The Great Living Chola Temples is a UNESCO World Heritage Site designation for a group of Chola dynasty era Hindu temples in the Indian state of Tamil Nadu.[1][2] Completed between early 11th and the 12th century CE, the monuments include:
+                    Brihadisvara Temple at Thanjavur
+                    Brihadisvara Temple at Gangaikonda Cholapuram
+                    Airavatesvara Temple at Kumbakonam.
+                <p>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/sVSO9XiUMzI" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center pt-4">
+                <button class="btn btn-primary" onclick="display('sectionFavouritePlaces')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionViewManasPage">
+        <div class="card1">
+            <h1 class="heading2 pt-3 ml-3">Detailed View</h1>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674989766/Manas_Wildlife_Sanctuary-119496_ut4o8a.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674989747/Manas_Wildlife_Sanctuary-118456_y4ceu6.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674989720/Manas_Wildlife_Sanctuary-110508_wtb1rd.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div class="DV-card">
+                <h1 class="h">Manas National Park</h1>
+                <p class="p">This article is about the park in India. For the park in Bhutan, see Royal Manas National Park.Manas National Park (ˈmʌnəs) is a national park, UNESCO Natural World Heritage Site, Project Tiger reserve, biosphere reserve and an elephant reserve in Assam, India. Located in the Himalayan foothills, it is contiguous with Royal Manas National Park[2] in Bhutan. The park is known for its rare and endangered endemic wildlife such as the Assam roofed turtle, hispid hare, golden langur and pygmy hog. Manas is famous for its population of the wild water buffalo.[3]
+                <p>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/A5Huh6h0mmk" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center pt-4">
+                <button class="btn btn-primary" onclick="display('sectionFavouritePlaces')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionViewVictorianPage">
+        <div class="card1">
+            <h1 class="heading2 pt-3 ml-3">Detailed View</h1>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674991249/download_1_h0cnpx.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674991265/download_2_izmw1s.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1674991283/download_nts3el.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div class="DV-card">
+                <h1 class="h">The Victorian and Art Deco Ensemble of Mumbai</h1>
+                <p class="p">The Victorian Gothic and Art Deco Ensembles of Bombay is a collection of 19th-century Victorian Revival public and 20th-century Mumbai Art Deco private buildings in the Fort precinct of Mumbai, Maharashtra, India. This ensemble was declared a UNESCO World Heritage Site in 2018This buildings are set around the Oval Maidan, a large recreational ground that was once known as the Esplanade.[1] The east of the Oval is flanked by the Victorian Gothic public buildings and the western side is flanked by the Art Deco buildings of Back bay Reclamation and Marine Drive.[1] This nomination aims to safeguard a total of 94 buildings.</p>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tSm1UFBUKk0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center pt-4">
+                <button class="btn btn-primary" onclick="display('sectionFavouritePlaces')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionViewSundarbanPage">
+        <div class="card1">
+            <h1 class="heading2 pt-3 ml-3">Detailed View</h1>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1675083139/220px-Sudhanyakhali_Jetty_dcdo9x.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1675083064/Big_croc_mgrhp6.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1675083041/220px-Tiger_Palm_in_Sundarban_van2jr.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div class="DV-card">
+                <h1 class="h">Sundarban National Park</h1>
+                <p class="p">he Sundarbans National Park is a national park, tiger reserve and biosphere reserve in West Bengal, India. It is part of the Sundarbans on the Ganges Delta and adjacent to the Sundarban Reserve Forest in Bangladesh. It is located to south-west of the Bangladesh. The delta is densely covered by mangrove forests, and is one of the largest reserves for the Bengal tiger. It is also home to a variety of bird, reptile and invertebrate species, including the salt-water crocodile. The present Sundarban National Park was declared as the core area of Sundarban Tiger Reserve in 1973 and a wildlife sanctuary in 1977. On 4 May 1984 it was declared a national park. It is a UNESCO World Heritage Site inscribed in 1987,[2][3] and it has been designated as a Ramsar site since 2019.[1] It is considered as a World Network of Biosphere Reserve (Man and Biosphere Reserve) from 1989.</p>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/uzMJ-n-Oa1M" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center pt-4">
+                <button class="btn btn-primary" onclick="display('sectionFavouritePlaces')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionViewMahabalipuramPage">
+        <div class="card1">
+            <h1 class="heading2 pt-3 ml-3">Detailed View</h1>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1675084658/images_kvbaqh.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1675084638/images_3_r64wpg.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1675084619/images_1_vyoknk.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div class="DV-card">
+                <h1 class="h">Mahabalipuram</h1>
+                <p class="p">Mamallapuram, also known as Mahabalipuram, is a town in Chengalpattu district in the southeastern Indian state of Tamil Nadu, best known for the UNESCO World Heritage Site of 7th- and 8th-century Hindu Group of Monuments at Mahabalipuram. It is one of the famous tourist sites in India.[1] The ancient name of the place is Thirukadalmallai.</p>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zc0A8Dz3Nb4" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center pt-4">
+                <button class="btn btn-primary" onclick="display('sectionFavouritePlaces')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionViewKeoladeoPage">
+        <div class="card1">
+            <h1 class="heading2 pt-3 ml-3">Detailed View</h1>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1675086924/download_3_zmxnh1.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1675086907/download_2_y7qy2b.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1675086876/download_1_vbzxnq.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div class="DV-card">
+                <h1 class="h">Keoladeo National Park</h1>
+                <p class="p">Keoladeo National Park or Keoladeo Ghana National Park (formerly known as the Bharatpur Bird Sanctuary) is a famous avifauna sanctuary in Bharatpur, Rajasthan, India, that hosts thousands of birds, especially during the winter season. Over 350 species of birds are known to be resident. It is also a major tourist centre with scores of ornithologists arriving here in the hibernal season. It was declared a protected sanctuary in 1971 and established as a national park on 10 March 1982. It is also a World Heritage Site.[3]</p>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/OxdB-ARzc8A" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center pt-4">
+                <button class="btn btn-primary" onclick="display('sectionFavouritePlaces')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionViewHillFortsPage">
+        <div class="card1">
+            <h1 class="heading2 pt-3 ml-3">Detailed View</h1>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1675087783/Jaisalmer_forteresse_oimhy3.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1675087769/download_2_foxkdr.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1675087751/download_1_nyo2d4.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div class="DV-card">
+                <h1 class="h">Hill Forts of Rajasthan</h1>
+                <p class="p">The North Western Indian State of Rajasthan has over one hundred fortifications on hills and mountainous terrain. Six Hill Forts of Rajasthan, spread across Rajasthan state in northern India, have been clustered as a series and designated UNESCO World Heritage Site. The ‘Hill Forts of Rajasthan’ was initially submitted to the UNESCO as a serial property formed by five Rajput forts in the Aravalli Range,[1] and were built and enhanced between the 5th and 18th centuries CE by several Rajput kings of different kingdoms. The UNESCO series has been increased to six forts. They consist of:
+                    Chittor Fort at Chittorgarh city
+                    Kumbhalgarh Fort at Rajsamand city
+                    Ranthambore Fort at Sawai Madhopur
+                    Gagron Fort at Jhalawar city
+                    Amer Fort at Jaipur city
+                    Jaisalmer Fort at Jaisalmer city</p>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/9zwUZTv95cw" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center pt-4">
+                <button class="btn btn-primary" onclick="display('sectionFavouritePlaces')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionViewSanchiPage">
+        <div class="card1">
+            <h1 class="heading2 pt-3 ml-3">Detailed View</h1>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1675088641/download_v52dgc.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1675088623/download_4_bwdi9w.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1675088601/download_3_ns2oyc.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div class="DV-card">
+                <h1 class="h">Sanchi</h1>
+                <p class="p">Sanchi is a Buddhist complex, famous for its Great Stupa, on a hilltop at Sanchi Town in Raisen District of the State of Madhya Pradesh, India. It is located, about 23 kilometres from Raisen town, district headquarter and 46 kilometres (29 mi) north-east of Bhopal, capital of Madhya Pradesh.</p>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/SbL6jjM5OfQ" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center pt-4">
+                <button class="btn btn-primary" onclick="display('sectionFavouritePlaces')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionViewKonarkPage">
+        <div class="card1">
+            <h1 class="heading2 pt-3 ml-3">Detailed View</h1>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1675089470/download_1_hvxmo9.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1675089487/download_2_iyk0np.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1675089501/images_3_hd6bcc.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div class="DV-card">
+                <h1 class="h">Konark Sun Temple</h1>
+                <p class="p">Konark Sun Temple is a 13th-century CE (year 1250) Sun temple at Konark about 35 kilometres (22 mi) northeast from Puri city on the coastline in Puri district, Odisha, India.[1][2] The temple is attributed to king Narasimhadeva I of the Eastern Ganga dynasty about 1250 CE.[3][4]</p>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/2fmZ0VfflRA" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center pt-4">
+                <button class="btn btn-primary" onclick="display('sectionFavouritePlaces')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionViewHistoricCityPage">
+        <div class="card1">
+            <h1 class="heading2 pt-3 ml-3">Detailed View</h1>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1675091383/download_3_kuwjgu.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1675091371/download_2_hhaw6p.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1675091355/download_1_oypipy.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div class="DV-card">
+                <h1 class="h">Historic City of Ahmadabad</h1>
+                <p class="p">The Historic City of Ahmadabad or Old Ahmedabad, the walled city of Ahmedabad in India, was founded by Ahmad Shah I of the Gujarat Sultanate in 1411. It remained the capital of the state of Gujarat for six centuries and later became the important political and commercial centre of Gujarat. Today, despite having become crowded and dilapidated, it still serves as the symbolic heart of metropolitan Ahmedabad. It was inscribed as the World Heritage City by UNESCO in July 2017.[1]The earliest settlements were situated south of the current old city and on the bank of Sabarmati river. It was known as Ashaval or Ashapalli. In the 11th century, Karna of the Chaulukya dynasty made the town his capital and named it Karnavati (Karna's town), Shrinagar (prosperous city), and Rajnagar (king's town).[2]</p>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PtFhu4VY85U" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center pt-4">
+                <button class="btn btn-primary" onclick="display('sectionFavouritePlaces')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionViewValleyOfFlowersPage">
+        <div class="card1">
+            <h1 class="heading2 pt-3 ml-3">Detailed View</h1>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1675096668/images_6_sfbza5.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1675096395/images_4_sgcaep.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1675096323/images_2_w4qhr9.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div class="DV-card">
+                <h1 class="h">Valley of Flowers National Park</h1>
+                <p class="p">Valley of Flowers National Park is an Indian national park which was established in 1982. It is located in Chamoli in the state of Uttarakhand and is known for its meadows of endemic alpine flowers and the variety of flora. This richly diverse area is also home to rare and endangered animals, including the Asiatic black bear,[1] snow leopard,[1] musk deer,[1] brown bear, red fox[1] and blue sheep. Birds found in the park include Himalayan monal pheasant and other high altitude birds.[2]
+                    At 3352 to 3658 meters above sea level, the gentle landscape of the Valley of Flowers National Park complements the rugged mountain wilderness of Nanda Devi National Park to the east.[3] Together, they encompass a unique transition zone between the mountain ranges of the Zanskar and Great Himalaya. The park stretches over an expanse of 87.50 km2 and it is about 8 km long and 2 km wide.[2] The park lies completely in the temperate alpine zone</p>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/FY8LO8Dus64" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center pt-4">
+                <button class="btn btn-primary" onclick="display('sectionFavouritePlaces')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionViewCapitolComplexPage">
+        <div class="card1">
+            <h1 class="heading2 pt-3 ml-3">Detailed View</h1>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1675097272/images_7_qi3cpz.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1675097259/download_e7s2ty.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1675097244/download_1_eoknxb.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div class="DV-card">
+                <h1 class="h">Capitol Complex Tourist Center</h1>
+                <p class="p">Chandigarh Capitol Complex, located in the sector-1 of Chandigarh city in India, is a government compound designed by the architect Le Corbusier[1] and is a UNESCO World Heritage Site.[2] It is spread over an area of around 100 acres and is a prime manifestation of Chandigarh's architecture. It comprises three buildings: the Palace of Assembly or Legislative Assembly, Secretariat Building and the High Court plus four monuments (Open Hand Monument, Geometric Hill, Tower of Shadows and the Martyrs Monument) and a lake.[3][4][5][6][7] It was added to the UNESCO World Heritage Site List in 2016 along with sixteen other works by Le Corbusier for its contribution to the development of modernist architecture.[8]</p>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/BcYwQVyiD5g" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center pt-4">
+                <button class="btn btn-primary" onclick="display('sectionFavouritePlaces')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionViewDarjeelingPage">
+        <div class="card1">
+            <h1 class="heading2 pt-3 ml-3">Detailed View</h1>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1675098515/images_kwr9wr.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1675098292/2_af2t5z.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1675098220/1_kx6qt3.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div class="DV-card">
+                <h1 class="h">Darjeeling Himalayan Railway</h1>
+                <p class="p">The Darjeeling Himalayan Railway, also known as the DHR or the Toy Train, is a 610 mm (2 ft) gauge railway that runs between New Jalpaiguri and Darjeeling in the Indian state of West Bengal.[1] Built between 1879 and 1881, it is about 88 km (55 mi) long. It climbs from about 100 m (330 ft) above sea level at New Jalpaiguri to about 2,200 m (7,200 ft) at Darjeeling, using six zig zags and five loops to gain altitude. Six diesel locomotives handle most of the scheduled service, with daily tourist trains from Darjeeling to Ghum – India's highest railway station – and the steam-hauled Red Panda service from Darjeeling to Kurseong. Steam-enthusiast specials are hauled by vintage British-built B-Class steam locomotives. The railway's headquarters are at Kurseong.</p>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/gHHT2Nd1ZR4" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center pt-4">
+                <button class="btn btn-primary" onclick="display('sectionFavouritePlaces')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionViewBrihadeeswaraPage">
+        <div class="card1">
+            <h1 class="heading2 pt-3 ml-3">Detailed View</h1>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1675099156/images_nx7moi.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1675099138/images_2_jjwyus.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1675099120/images_3_xd9gvg.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div class="DV-card">
+                <h1 class="h">Brihadeeswara Temple</h1>
+                <p class="p">Brihadishvara Temple, called Rajarajesvaram (lit.'Lord of Rajaraja') by its builder, and known locally as Thanjai Periya Kovil ("Thanjavur Big Temple") and Peruvudaiyar Kovil, is a Shaivite[3][4] Hindu temple built in a Chola architectural style[5] located on the south bank of the Cauvery river in Thanjavur, Tamil Nadu, India.[1][6] It is one of the largest Hindu temples and an exemplar of Tamil architecture.[7] It is also called Dakshina Meru ("Meru of the South).[8] Built by Chola emperor Rajaraja I between 1003 and 1010 CE, the temple is a part of the UNESCO World Heritage Site known as the "Great Living Chola Temples", along with the hola-era Gangaikonda Cholapuram temple and Airavatesvara temple, which are about 70 kilometres (43 mi) and 40 kilometres (25 mi) to its northeast respectively.</p>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/GQjyzNCunPI" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center pt-4">
+                <button class="btn btn-primary" onclick="display('sectionFavouritePlaces')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionViewSundarbansPage">
+        <div class="card1">
+            <h1 class="heading2 pt-3 ml-3">Detailed View</h1>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1675099626/images_5_lzypki.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1675099610/images_2_po2cp9.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1675099593/images_1_hzabl8.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div class="DV-card">
+                <h1 class="h">Sundarbans</h1>
+                <p class="p">Sundarbans (pronounced /sʌnˈdɑːrbənz/) is a mangrove area in the delta formed by the confluence of the Padma, Brahmaputra and Meghna Rivers in the Bay of Bengal. It spans the area from the Baleswar River in Bangladesh's division of Khulna to the Hooghly River in India's state of West Bengal. It comprises closed and open mangrove forests, land used for agricultural purpose, mudflats and barren land, and is intersected by multiple tidal streams and channels. Sundarbans is home to the world's largest area of mangrove forests.[3] Four protected areas in the Sundarbans are enlisted as UNESCO World Heritage Sites, viz. Sundarbans West (Bangladesh), Sundarbans South (Bangladesh), Sundarbans East (Bangladesh) and Sundarbans National Park (India).[4]</p>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/LNSZjsjeTog" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center pt-4">
+                <button class="btn btn-primary" onclick="display('sectionFavouritePlaces')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionViewBasilicaPage">
+        <div class="card1">
+            <h1 class="heading2 pt-3 ml-3">Detailed View</h1>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1675100180/images_3_zaicgd.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1675100164/images_4_flcnsx.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1675100367/images_ihjxth.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div class="DV-card">
+                <h1 class="h">Basilica of Bom Jesus</h1>
+                <p class="p">The Basilica of Bom Jesus (Portuguese: Basílica do Bom Jesus; Konkani: Borea Jezuchi Bajilika) is a Catholic basilica located in the Goa situated in the Konkan region of India. It is both a pilgrimage centre and also the most iconic monument of all the churches and convents of Goa, recognised by UNESCO as a World Heritage Site.[1][2] The basilica is located in Old Goa, former capital of Portuguese India, and holds the mortal remains of St Francis Xavier.</p>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Ht6XilXXxRE" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center pt-4">
+                <button class="btn btn-primary" onclick="display('sectionFavouritePlaces')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionViewQutbMinarPage">
+        <div class="card1">
+            <h1 class="heading2 pt-3 ml-3">Detailed View</h1>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1675101662/66_kcxhv1.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1675100976/images_2_ze3iwc.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1675100960/images_1_enhmfa.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div class="DV-card">
+                <h1 class="h">Qutb Minar complex</h1>
+                <p class="p">The Qutb Minar complex are monuments and buildings from the Delhi Sultanate at Mehrauli in Delhi, India.[1] Construction of the Qutub Minar "victory tower" in the complex, named after the religious figure Sufi Saint Khwaja Qutbuddin Bakhtiar Kaki, was begun by Qutb-ud-din Aibak, who later became the first Sultan of Delhi of the Mamluk dynasty (Gulam Vansh). It was continued by his successor Iltutmish (a.k.a. Altamash), and finally completed much later by Firoz Shah Tughlaq, a Sultan of Delhi from the Tughlaq dynasty (1320-1412) in 1368 AD. The Qubbat-ul-Islam Mosque (Dome of Islam), later corrupted into Quwwat-ul Islam,[2] stands next to the Qutb Minar.</p>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/nxQ9my2ur-I" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center pt-4">
+                <button class="btn btn-primary" onclick="display('sectionFavouritePlaces')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionViewChittorgarhFortPage">
+        <div class="card1">
+            <h1 class="heading2 pt-3 ml-3">Detailed View</h1>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1675102147/images_1_pdj2j3.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1675102103/images_o4gxkn.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1675102053/images_5_qsmdnc.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div class="DV-card">
+                <h1 class="h">Chittorgarh Fort</h1>
+                <p class="p">The Chittorgarh (literally Chittor Fort), also known as Chittod Fort, is one of the largest forts in India. It is a UNESCO World Heritage Site. The fort was the capital of Mewar and is located in the present-day city of Chittorgarh. It sprawls over a hill 180 m (590.6 ft) in height spread over an area of 280 ha (691.9 acres) above the plains of the valley drained by the Berach River. The fort covers 65 historic structures, which include four palaces, 19 large temples, 20 large water bodies, 4 memorials and a few victory towers.</p>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/wrBxb3jj1oE" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center pt-4">
+                <button class="btn btn-primary" onclick="display('sectionFavouritePlaces')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionViewNandaDeviPage">
+        <div class="card1">
+            <h1 class="heading2 pt-3 ml-3">Detailed View</h1>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1675103158/images_aamonx.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1675103149/images_1_ibtos1.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1675103136/2_j4epjr.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div class="DV-card">
+                <h1 class="h">Nanda Devi National Park</h1>
+                <p class="p">The Nanda Devi National Park or Nanda Devi Biosphere Reserve, established in 1982 is a national park situated around the peak of Nanda Devi (7816 m) in Chamoli Garhwal district of Uttarakhand, in northern India. The entire park lies at an elevation of more than 3,500 m (11,500 ft) above mean sea level.
+                    The National Park was inscribed a World Heritage Site by UNESCO in 1988.[1] It was later expanded and renamed as Nanda Devi and Valley of Flowers National Parks in 2005.</p>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/De0ibQW1KBA" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center pt-4">
+                <button class="btn btn-primary" onclick="display('sectionFavouritePlaces')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionViewKailasaPage">
+        <div class="card1">
+            <h1 class="heading2 pt-3 ml-3">Detailed View</h1>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1675104106/3_jd0k3o.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1675104089/4_g880vr.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1675104068/8_lg8h7y.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div class="DV-card">
+                <h1 class="h">Kailasa Temple</h1>
+                <p class="p">The Kailasha (IAST: Kailāśa) or Kailashanatha (IAST: Kailāśanātha) temple is the largest of the rock-cut Hindu temples at the Ellora Caves, Aurangabad District, Maharashtra, India. A megalith carved from a rock cliff face, it is considered one of the most remarkable cave temples in the world because of its size, architecture and sculptural treatment,[1] and "the climax of the rock-cut phase of Indian architecture".[2] The top of the superstructure over the sanctuary is 32.6 metres (107 ft) above the level of the court below,[3] although the rock face slopes downwards from the rear of the temple to the front. Archaeologists believe it is made from a single rock.</p>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/B2Jl4HNDixc" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center pt-4">
+                <button class="btn btn-primary" onclick="display('sectionFavouritePlaces')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionViewDharasuramPage">
+        <div class="card1">
+            <h1 class="heading2 pt-3 ml-3">Detailed View</h1>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1675104555/images_5_ll15pd.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1675104539/images_2_morwac.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1675104524/images_1_zyl26h.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div class="DV-card">
+                <h1 class="h">Dharasuram</h1>
+                <p class="p">Darasuram or Dharasuram is a locality in Kumbakonam, Tamil Nadu, India.[1] The area is known for the Airavateswara temple constructed by the Rajaraja Chola II in the 12th century CE. The temple is a recognised UNESCO World Heritage monument.As of 2001 India census,[2] Darasuram had a population of 13,027. Males constitute 50% of the population and females 50%. Dharasuram has an average literacy rate of 70%, higher than the national average of 59.5%: male literacy is 77% and, female literacy is 63%. In Dharasuram, 11% of the population is under six years of age.</p>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/MqprN2xDdRc" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center pt-4">
+                <button class="btn btn-primary" onclick="display('sectionFavouritePlaces')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionViewNandaDeviPage">
+        <div class="card1">
+            <h1 class="heading2 pt-3 ml-3">Detailed View</h1>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1675105171/images_8_u5wjni.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1675105156/images_6_y1bjps.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1675105140/2_tj2zn4.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div class="DV-card">
+                <h1 class="h">Nanda Devi</h1>
+                <p class="p">Nanda Devi is the second-highest mountain in India, after Kangchenjunga, and the highest located entirely within the country (Kangchenjunga is on the border of India and Nepal). It is the 23rd-highest peak in the world.Nanda Devi was considered the highest mountain in the world before computations in 1808 proved Dhaulagiri to be higher. It was also the highest mountain in India until 1975, when Sikkim, an independent kingdom until 1948 and a protectorate of India thereafter, became a part of the Republic of India. It is located in Chamoli Garhwal district of Uttarakhand, between the Rishiganga valley on the west and the Goriganga valley on the east.</p>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/mYa9NhFRO9g" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center pt-4">
+                <button class="btn btn-primary" onclick="display('sectionFavouritePlaces')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionViewWesternGhatsPage">
+        <div class="card1">
+            <h1 class="heading2 pt-3 ml-3">Detailed View</h1>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1675105780/images_ngdj80.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1675105768/images_3_zyeu51.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1675105753/images_1_kphhrq.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div class="DV-card">
+                <h1 class="h">Western Ghats</h1>
+                <p class="p">The Western Ghats or the Western Mountain range is a mountain range that covers an area of 160,000 km2 (62,000 sq mi) in a stretch of 1,600 km (990 mi) parallel to the western coast of the Indian peninsula, traversing the states of Gujarat, Maharashtra, Goa, Karnataka, Kerala and Tamil Nadu.[1] It is a UNESCO World Heritage Site and is one of the 36 biodiversity hotspots in the world.[2] It is sometimes called the Great Escarpment of India.[3] It contains a very large proportion of the country's flora and fauna, many of which are endemic to this region.[4] According to UNESCO, the Western Ghats are older than the Himalayas. They influence Indian monsoon weather patterns by intercepting the rain-laden monsoon winds that sweep in from the south-west during late summer.[1] The range runs north to south along the western edge of the Deccan Plateau and separates the plateau from a narrow coastal plain called Konkan along the Arabian Sea. A total of 39 areas in the Western Ghats, including national parks, wildlife sanctuaries and reserve forests, were designated as world heritage sites in 2012 – twenty in Kerala, ten in Karnataka, six in Tamil Nadu and four in Maharashtra.[5][6]</p>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ijCO7JhxQ5E" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center pt-4">
+                <button class="btn btn-primary" onclick="display('sectionFavouritePlaces')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionViewVelhaGoaPage">
+        <div class="card1">
+            <h1 class="heading2 pt-3 ml-3">Detailed View</h1>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1675106491/images_4_pj7mmj.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1675106472/images_2_d3snmk.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1675106448/99_uwxsyr.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div class="DV-card">
+                <h1 class="h">Velha Goa</h1>
+                <p class="p">Goa Velha is a small town in Ilhas de Goa subdistrict, Goa state, India. It should not be confused with the World Heritage Site of the historical city of Old Goa (Portuguese: Velha Goa). St Andrew's is its parish church. It is well known for its yearly 'Procession of the Saints' (Konkani: Santanchem Pursanv).The town of Goa Velha was a southern suburb of the City of Goa, which was the original capital of Portuguese India. The Plagues of Goa in the 16th and 18th century gradually brought about the decline in the city's population. Goa Velha was one of the few areas on the Ilhas de Goa where populations of people began to cluster around.</p>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/KCVmnz9XpNE" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center pt-4">
+                <button class="btn btn-primary" onclick="display('sectionFavouritePlaces')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionViewPinkCityPage">
+        <div class="card1">
+            <h1 class="heading2 pt-3 ml-3">Detailed View</h1>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1675107527/images_falvvr.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1675107511/images_1_zkekfy.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/djkrastjv/image/upload/v1675107494/5_wsvm06.jpg" class="d-block w-100 Dvimg" alt="Dvimg">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div class="DV-card">
+                <h1 class="h">pink city</h1>
+                <p class="p">Jaipur (/ˈdʒaɪpʊər/ (listen);[8][9][10] Hindi: Jayapura), formerly Jeypore, is the capital and largest city of the Indian state of Rajasthan. As of 2022, the city had a population of 4.5 million, making it the tenth most populous city in the country. Jaipur is also known as the Pink City, due to the dominant colour scheme of its buildings. It is also known as the Paris of India, and C. V. Raman called it the Island of Glory. It is located 268 km (167 miles) from the national capital New Delhi. Jaipur was founded in 1727 by the Kachhwaha Rajput ruler Jai Singh II,[11][12] the ruler of Amer, after whom the city is named. It was one of the earliest planned cities of modern India, designed by Vidyadhar Bhattacharya.[13] During the British Colonial period, the city served as the capital of Jaipur State. After independence in 1947, Jaipur was made the capital of the newly formed state of Rajasthan</p>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/DG1x3fAKjpY" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex flex-row justify-content-center pt-4">
+            <button class="btn btn-primary" onclick="display('sectionFavouritePlaces')">Back</button>
+        </div>
+    </div>
+
+    <div id="resultsite"></div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+    background-image: url("https://res.cloudinary.com/djkrastjv/image/upload/v1674230147/gradient-glassmorphism-horizontal-banner_23-2149440109_grfa6i.webp");
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+}
+
+.heading {
+    color: #000000;
+    font-family: "Lobster";
+    font-size: 105px;
+    font-weight: bold;
+}
+
+.heading1 {
+    color: #000000;
+    font-family: "Lobster";
+    font-size: 22px;
+
+    font-weight: bold;
+}
+
+.heading2 {
+    color: black;
+    font-family: "Lobster";
+    font-size: 40px;
+
+    font-weight: bold;
+}
+
+.h {
+    color: #0f0e46;
+    font-family: "Lobster";
+    font-size: 35px;
+
+    font-weight: bold;
+}
+
+
+.button {
+    height: 50px;
+    width: 100px;
+    background-color: #AFEEEE;
+    border-color: white;
+    border-width: 0px;
+    border-radius: 15px;
+    margin-top: 100px;
+}
+
+.card {
+    background-image: url("https://res.cloudinary.com/djkrastjv/image/upload/v1674232210/pngtree-abstract-background-glassmorphism-pastel-color-image_908574_m1bqrm.jpg");
+
+    background-size: cover;
+
+}
+
+.size {
+    height: 35px;
+
+    margin-top: 45px;
+
+}
+
+.imgcard {
+    height: 90px;
+    width: 100px;
+    margin: 15px;
+}
+
+.site-card {
+    background-color: #ebf2fc;
+    border-radius: 10px;
+    margin: 8px;
+    padding: 15px;
+}
+
+.namesize {
+    color: #000000;
+    font-family: "Lobster";
+    font-size: 28px;
+
+}
+
+.p {
+    font-size: 8px;
+}
+
+.span {
+    color: black;
+    font-weight: bold;
+}
+
+.card1 {
+    background-image: url("https://res.cloudinary.com/djkrastjv/image/upload/v1674312192/pngtree-creative-concept-of-glass-morphism-background-image_807479_nmp8ln.jpg");
+
+    background-size: cover;
+
+}
+
+
+.Dvimg {
+    width: 500vw;
+    background-image: cover;
+}
+
+.DV-card {
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+
+}
+
+.p {
+    color: #6c6b70;
+    font-family: "Roboto";
+    font-size: 19px;
+}
